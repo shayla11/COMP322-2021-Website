@@ -1,0 +1,12 @@
+.underline{
+    text-decoration: underline;
+}
+
+.redbold{
+    color: red;
+    font-weight: bold;
+}
+
+.orangeback{
+    background: orange;
+}
