@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <script>
+        let going = true;
+        let array = []
+        while (going) {
+            let x = prompt("Enter value of X")
+            let op = prompt("Enter an operand")
+            let y = prompt("Enter value of Y")
+            let ans = confirm("Would you like to continue?")
+            array.push(x)
+            array.push(op)
+            array.push(y)
+            if (ans != true){
+                going = false;
+            }
+        }
+        chartmaker(array)
+    </script>
+    <br><br><br>
+    <div align="center">
+    <a href="index.html" target="_self" style="font-size: x-large"> Intro Page</a><br>
+    </div>
+
+
+</body>
+</html>
