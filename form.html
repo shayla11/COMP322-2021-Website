@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4</title>
+    <script src="validation.js"></script>
+</head>
+<body>
+<form name="myform">
+    <br>
+    Username: <input type="text" name="username"> <br><br>
+    Email: <input type="text" name="email"> <br><br>
+    Phone number: <input type="text" name="phonenum"> ex: (123)-456-7890<br><br>
+    Enter Password: <input type="password" name="enterpass"> use atleast: 1 upper case, 1 lowercase, 1 number, and 1 special character <br><br>
+    Confirm Password: <input type="password" name="confirmpass"> <br><br>
+    Gender: <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Other">Other <br><br>
+    Age Group: <select name="agegroup" size="1">
+    <option value=""></option>
+    <option value="< 21 years old">< 21 years old</option>
+    <option value="21 - 25 years old"> 21 - 25 years old</option>
+    <option value="26 - 35 years old"> 26 - 35 years old</option>
+    <option value="36 - 50 years old"> 36 - 50 years old</option>
+    <option value="< 50 years old"> < 50 years old</option>
+</select><br><br>
+    Favorite Music Genre: <input type="checkbox" name="music" value="Pop">Pop
+    <input type="checkbox" name="music" value="Hiphop">Hiphop
+    <input type="checkbox" name="music" value="Jazz">Jazz
+    <input type="checkbox" name="music" value="Rock">Rock
+    <input type="checkbox" name="music" value="Classical Music">Classical Music
+    <input type="checkbox" name="music" value="Country">Country
+    <br><br>
+
+    <input type="button" value="submit" onclick="validate()">
+    <input type="button" value="clear" onclick="empty()">
+    <br><br>
+    <div id="output"></div><br>
+
+</form>
+<a href="index.html" target="_self" style="font-size: x-large"> Intro Page</a><br>
+
+
+</body>
+</html>
